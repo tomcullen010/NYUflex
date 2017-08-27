@@ -15,7 +15,7 @@
         <mobile_title>Flex Qualifications</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_snc_nyu2_flex_qualification</name>
-        <order/>
+        <order>900</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e3272cd2133403008ac858a12244b0e0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Flex Qualifications</sys_name>
         <sys_overrides/>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
@@ -37,8 +37,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
         <sys_update_name>sys_app_module_e3272cd2133403008ac858a12244b0e0</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-27 11:38:27</sys_updated_on>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2017-08-27 14:22:09</sys_updated_on>
         <timeline_page/>
         <title>Flex Qualifications</title>
         <uncancelable>false</uncancelable>
