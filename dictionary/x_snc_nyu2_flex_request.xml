@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Flex Request" max_length="40" name="x_snc_nyu2_flex_request" sizeclass="2" type="collection">
+        <element label="Check all that apply to you" mandatory="true" max_length="4000" name="check_all_that_apply_to_you" type="glide_list"/>
+        <element default="A. Flex Time Option One" label="Question A" max_length="80" name="question_a" read_only="true" type="string"/>
+        <element default="Change in start time (up to 1/2 hour earlier or up to 1 hour later than your regularly scheduled start time) while maintaining a 5-day work week.  No reason is needed and no eligibility criteria apply.  All that is required is supervisory approval.  Already existing arrangements of this type do not require continuation approval.  However, supervisors can modify any flexible arrangements at any time." label="Question A Description" max_length="400" name="question_a_description" read_only="true" type="string"/>
+        <element label="Question A Reasons" max_length="4000" name="question_a_reasons" reference="x_snc_nyu2_flex_reason" type="glide_list"/>
+        <element label="Question A Selected" max_length="40" name="question_a_selected" type="boolean"/>
+        <element default="B. Flex Time Option Two" label="Question B" max_length="80" name="question_b" read_only="true" type="string"/>
+        <element default="Change in work hours (that is outside the parameters noted in Flex Time option A) while maintaining a 5-day work week." label="Question B Description" max_length="400" name="question_b_description" read_only="true" type="string"/>
+        <element label="Question B Reasons" max_length="4000" name="question_b_reasons" reference="x_snc_nyu2_flex_reason" type="glide_list"/>
+        <element label="Question B Selected" max_length="40" name="question_b_selected" type="boolean"/>
+        <element default="C Compressed Work Week" label="Question C" max_length="80" name="question_c" read_only="true" type="string"/>
+        <element default="(not to exceed the parameters of a 4-day week: 9.75 hrs/day, which includes 1 hour per day for lunch unless requested and approved as a reasonable accommodation based on a disability)" label="Question C Description" max_length="400" name="question_c_description" read_only="true" type="string"/>
+        <element label="Question C Reasons" max_length="4000" name="question_c_reasons" reference="x_snc_nyu2_flex_reason" type="glide_list"/>
+        <element label="Question C Selected" max_length="40" name="question_c_selected" type="boolean"/>
+        <element default="D. Telecommuting" label="Question D" max_length="80" name="question_d" read_only="true" type="string"/>
+        <element default="(not to exceed one full day each week unless an exception is approved as reasonable accommodation based on a disability)" label="Question D Description" max_length="400" name="question_d_description" read_only="true" type="string"/>
+        <element label="Question D Reasons" max_length="4000" name="question_d_reasons" reference="x_snc_nyu2_flex_reason" type="glide_list"/>
+        <element label="Question D Selected" max_length="40" name="question_d_selected" type="boolean"/>
+        <element default="E. Conversion from full-time to regular part-time" label="Question E" max_length="80" name="question_e" read_only="true" type="string"/>
+        <element default="(Note: This option has benefits implications that the employee is advised to explore with her/his Benefits Advisor in advance of making request)." label="Question E Description" max_length="400" name="question_e_description" read_only="true" type="string"/>
+        <element label="Question E Reasons" max_length="4000" name="question_e_reasons" reference="x_snc_nyu2_flex_reason" type="glide_list"/>
+        <element label="Question E Selected" max_length="40" name="question_e_selected" type="boolean"/>
+        <element label="Today's Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+    </element>
+</database>

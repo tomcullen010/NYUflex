@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Flex Qualification" max_length="40" name="x_snc_nyu2_flex_qualification" type="collection">
+        <element label="order" max_length="40" name="order" type="integer"/>
+        <element display="true" label="Qualification" max_length="200" name="qualification" type="string"/>
+    </element>
+</database>

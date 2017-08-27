@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="B. Flex Time Option Two" section_id="3e0cd2f54f7cc3002d1d958f0310c753" sys_domain="global" table="x_snc_nyu2_flex_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>question_b_selected</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-26 06:57:49</sys_created_on>
+            <sys_id>765d12394f7cc3002d1d958f0310c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="B. Flex Time Option Two" display_value="B. Flex Time Option Two" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">3e0cd2f54f7cc3002d1d958f0310c753</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-26 06:57:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>question_b</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-26 06:57:49</sys_created_on>
+            <sys_id>f65d12394f7cc3002d1d958f0310c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="B. Flex Time Option Two" display_value="B. Flex Time Option Two" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">3e0cd2f54f7cc3002d1d958f0310c753</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-26 06:57:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>question_b_description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-26 06:57:49</sys_created_on>
+            <sys_id>7a5d12394f7cc3002d1d958f0310c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="B. Flex Time Option Two" display_value="B. Flex Time Option Two" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">3e0cd2f54f7cc3002d1d958f0310c753</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-26 06:57:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>question_b_reasons</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-26 06:57:49</sys_created_on>
+            <sys_id>fa5d12394f7cc3002d1d958f0310c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="B. Flex Time Option Two" display_value="B. Flex Time Option Two" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">3e0cd2f54f7cc3002d1d958f0310c753</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-26 06:57:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>B. Flex Time Option Two</caption>
+            <header>false</header>
+            <name>x_snc_nyu2_flex_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-08-26 06:52:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e0cd2f54f7cc3002d1d958f0310c753</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>B. Flex Time Option Two</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+            <sys_update_name>sys_ui_section_3e0cd2f54f7cc3002d1d958f0310c753</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-08-26 06:52:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

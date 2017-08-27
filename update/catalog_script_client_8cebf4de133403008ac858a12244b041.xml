@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="NYU Work Flex Request">4e078ffd4fbcc3002d1d958f0310c75d</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <messages/>
+        <name>One Question must be selected</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+    if((g_form.getValue('question_a_selected') == 'false') &&
+		 (g_form.getValue('question_b_selected') == 'false') && 
+		 (g_form.getValue('question_c_selected') == 'false'))  {
+	 
+        g_form.clearMessages(); 
+		 
+    g_form.addErrorMessage('No question selected');
+        return false;
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-27 13:13:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8cebf4de133403008ac858a12244b041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>One Question must be selected</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>catalog_script_client_8cebf4de133403008ac858a12244b041</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-27 13:13:51</sys_updated_on>
+        <table/>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

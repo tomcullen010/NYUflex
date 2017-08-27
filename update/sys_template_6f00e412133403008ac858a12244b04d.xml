@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>NYU Flex Request</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>NYU employee flex-work request</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-27 11:10:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6f00e412133403008ac858a12244b04d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NYU Flex Request</sys_name>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>sys_template_6f00e412133403008ac858a12244b04d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-27 11:10:48</sys_updated_on>
+        <table>x_snc_nyu2_flex_request</table>
+        <template/>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="NYU Work Flex Request">4e078ffd4fbcc3002d1d958f0310c75d</catalog_item>
+        <catalog_variable>IO:cae1309a133403008ac858a12244b014</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-08-27 13:03:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5b8a789e133403008ac858a12244b073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>question_b_desc</sys_name>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5b8a789e133403008ac858a12244b073</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-27 13:03:05</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show/Hide Question B description">538a389e133403008ac858a12244b011</ui_policy>
+        <variable>question_b_desc</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
