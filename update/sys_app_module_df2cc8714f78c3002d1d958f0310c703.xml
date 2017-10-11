@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="NYU2">9553843d4f38c3002d1d958f0310c75f</application>
+        <application display_value="NYU Flexible Work Arrangement Request">9553843d4f38c3002d1d958f0310c75f</application>
         <assessment/>
         <content_page/>
         <device_type/>
@@ -19,7 +19,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_snc_nyu2.user</roles>
+        <roles>x_snc_nyu2.admin</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>df2cc8714f78c3002d1d958f0310c703</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Flex Reasons</sys_name>
         <sys_overrides/>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
@@ -37,8 +37,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
         <sys_update_name>sys_app_module_df2cc8714f78c3002d1d958f0310c703</sys_update_name>
-        <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2017-08-27 14:22:05</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-08-27 14:37:57</sys_updated_on>
         <timeline_page/>
         <title>Flex Reasons</title>
         <uncancelable>false</uncancelable>

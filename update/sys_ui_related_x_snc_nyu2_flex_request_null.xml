@@ -3,17 +3,17 @@
     <sys_ui_related sys_domain="global" table="x_snc_nyu2_flex_request" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Flex Request - Default view" name="x_snc_nyu2_flex_request" related_list="NULL" sys_domain="global" view="Default view">81c4c7bd4fbcc3002d1d958f0310c769</list_id>
+            <list_id display_value="Flex Request - Default view" name="x_snc_nyu2_flex_request" related_list="NULL" sys_domain="global" view="Default view">30d7d99213b403008ac858a12244b0ee</list_id>
             <order_by/>
             <position>0</position>
-            <related_list/>
+            <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-26 09:49:59</sys_created_on>
-            <sys_id>49c4c7bd4fbcc3002d1d958f0310c769</sys_id>
+            <sys_created_on>2017-08-27 15:10:58</sys_created_on>
+            <sys_id>bcd7d99213b403008ac858a12244b0ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-26 09:49:59</sys_updated_on>
+            <sys_updated_on>2017-08-27 15:10:58</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Flex Request - Default view</calculated_name>
@@ -24,11 +24,11 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-26 09:49:59</sys_created_on>
+            <sys_created_on>2017-08-27 15:10:58</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>81c4c7bd4fbcc3002d1d958f0310c769</sys_id>
+            <sys_id>30d7d99213b403008ac858a12244b0ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Flex Request - Default view</sys_name>
             <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
@@ -37,7 +37,7 @@
             <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
             <sys_update_name>sys_ui_related_x_snc_nyu2_flex_request_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-26 09:49:59</sys_updated_on>
+            <sys_updated_on>2017-08-27 15:10:58</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Flex Request" max_length="40" name="x_snc_nyu2_flex_request" sizeclass="2" type="collection">
-        <element label="Check all that apply to you" mandatory="true" max_length="4000" name="check_all_that_apply_to_you" type="glide_list"/>
+    <element extends="task" label="Flex Request" max_length="40" name="x_snc_nyu2_flex_request" sizeclass="17" type="collection">
+        <element label="Check all that apply to you" mandatory="true" max_length="4000" name="check_all_that_apply_to_you" reference="x_snc_nyu2_flex_qualification" type="glide_list"/>
         <element default="A. Flex Time Option One" label="Question A" max_length="80" name="question_a" read_only="true" type="string"/>
         <element default="Change in start time (up to 1/2 hour earlier or up to 1 hour later than your regularly scheduled start time) while maintaining a 5-day work week.  No reason is needed and no eligibility criteria apply.  All that is required is supervisory approval.  Already existing arrangements of this type do not require continuation approval.  However, supervisors can modify any flexible arrangements at any time." label="Question A Description" max_length="400" name="question_a_description" read_only="true" type="string"/>
         <element label="Question A Reasons" max_length="4000" name="question_a_reasons" reference="x_snc_nyu2_flex_reason" type="glide_list"/>

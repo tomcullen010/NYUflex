@@ -11,7 +11,7 @@
         <name>One Question must be Selected</name>
         <order/>
         <script><![CDATA[function onSubmit() {
-   //Type appropriate comment here, and begin script below
+   //Make sure at least 1 question is selected
 	
 	 if((g_form.getValue('question_a_selected') == 'false') &&
 		 (g_form.getValue('question_b_selected') == 'false') && 
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a1217af14fbcc3002d1d958f0310c73c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>One Question must be Selected</sys_name>
         <sys_overrides/>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
         <sys_update_name>sys_script_client_a1217af14fbcc3002d1d958f0310c73c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-26 08:36:47</sys_updated_on>
+        <sys_updated_on>2017-08-29 19:22:08</sys_updated_on>
         <table>x_snc_nyu2_flex_request</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>
