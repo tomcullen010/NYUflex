@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="sn_hr_sp.admin" name="sn_hr_sp.admin">405fa64c5ba02200502f6ede91f91a2c</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-10-29 12:36:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4ab095224f024b002d1d958f0310c7d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>405fa64c5ba02200502f6ede91f91a2c</sys_name>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_4ab095224f024b002d1d958f0310c7d6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-10-29 12:36:54</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

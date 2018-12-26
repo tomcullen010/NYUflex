@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_template">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
     <sys_template action="INSERT_OR_UPDATE">
         <active>true</active>
         <global>false</global>
@@ -28,7 +27,7 @@
         <sys_updated_on>2017-08-27 11:10:48</sys_updated_on>
         <table>x_snc_nyu2_flex_request</table>
         <template/>
-        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <user display_value=" sys admin">6816f79cc0a8016401c5a33be04be441</user>
         <view/>
     </sys_template>
 </record_update>

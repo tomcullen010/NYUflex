@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>x_snc_nyu2_ii_tmpl_tc8_xform</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>false</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+	// Add your code here
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_snc_nyu2_ii_tmpl_tc8</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-17 11:47:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c5529fe24fb943002d1d958f0310c7a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_nyu2_ii_tmpl_tc8_xform</sys_name>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>sys_transform_map_c5529fe24fb943002d1d958f0310c7a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-17 11:47:28</sys_updated_on>
+        <target_table>x_snc_nyu2_ii_tc8</target_table>
+    </sys_transform_map>
+</record_update>

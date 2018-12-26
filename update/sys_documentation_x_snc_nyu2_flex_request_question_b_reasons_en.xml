@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="question_b_reasons" label="Question B Reasons" language="en" table="x_snc_nyu2_flex_request">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>question_b_reasons</element>

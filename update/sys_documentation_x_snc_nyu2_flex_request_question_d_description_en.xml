@@ -1,28 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
-    <sys_documentation element="question_d_description" label="Question D Description" language="en" table="x_snc_nyu2_flex_request">
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="question_d_description" label="D. Telecommuting" language="en" table="x_snc_nyu2_flex_request">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>question_d_description</element>
             <help/>
             <hint/>
-            <label>Question D Description</label>
+            <label>D. Telecommuting</label>
             <language>en</language>
             <name>x_snc_nyu2_flex_request</name>
-            <plural>Question D Descriptions</plural>
+            <plural>D. Telecommutings</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-08-25 20:45:22</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>a72158354f78c3002d1d958f0310c702</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Question D Description</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>D. Telecommuting</sys_name>
             <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
             <sys_update_name>sys_documentation_x_snc_nyu2_flex_request_question_d_description_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-25 20:45:22</sys_updated_on>
+            <sys_updated_on>2018-12-25 14:06:21</sys_updated_on>
             <u_translation_log_id/>
             <url/>
             <url_target/>

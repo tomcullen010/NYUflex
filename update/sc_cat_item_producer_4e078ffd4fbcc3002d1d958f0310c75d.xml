@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_producer">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <active>true</active>
-        <availability>on_desktop</availability>
+        <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
@@ -14,6 +13,7 @@
         <description><![CDATA[<p>Balance your work and home life!   </p>]]></description>
         <entitlement_script/>
         <group/>
+        <hide_sp>false</hide_sp>
         <icon/>
         <ignore_price>true</ignore_price>
         <image/>
@@ -35,6 +35,7 @@
         <order>0</order>
         <ordered_item_link/>
         <picture/>
+        <post_insert_script/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=4e078ffd4fbcc3002d1d958f0310c75d&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <recurring_frequency/>
@@ -53,7 +54,7 @@
         <sys_created_on>2017-08-26 10:06:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4e078ffd4fbcc3002d1d958f0310c75d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>NYU Work Flex Request</sys_name>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
         <sys_policy/>
@@ -61,7 +62,7 @@
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
         <sys_update_name>sc_cat_item_producer_4e078ffd4fbcc3002d1d958f0310c75d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-27 15:34:55</sys_updated_on>
+        <sys_updated_on>2018-10-30 11:00:25</sys_updated_on>
         <table_name>x_snc_nyu2_flex_request</table_name>
         <template display_value="NYU Flex Request">6f00e412133403008ac858a12244b04d</template>
         <type>item</type>
@@ -111,6 +112,7 @@
     </fx_price>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#0</average_image_color>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <encryption_context/>
@@ -119,6 +121,7 @@
         <image_width>225</image_width>
         <size_bytes>2866</size_bytes>
         <size_compressed>2889</size_compressed>
+        <state/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-27 13:17:33</sys_created_on>
         <sys_id>9bddf012137403008ac858a12244b0f9</sys_id>
@@ -157,6 +160,7 @@
     </sys_attachment_doc>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#292420</average_image_color>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
         <encryption_context/>
@@ -165,6 +169,7 @@
         <image_width>275</image_width>
         <size_bytes>6685</size_bytes>
         <size_compressed>6686</size_compressed>
+        <state/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-08-27 11:06:24</sys_created_on>
         <sys_id>4adf9cde13f003008ac858a12244b01b</sys_id>

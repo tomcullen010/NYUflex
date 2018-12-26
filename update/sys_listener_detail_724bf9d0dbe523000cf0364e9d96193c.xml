@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_listener_detail">
+    <sys_listener_detail action="INSERT_OR_UPDATE">
+        <classname>com.glide.listener.TaskChildNotifier</classname>
+        <correlator_display_value/>
+        <correlator_key/>
+        <correlator_system/>
+        <correlator_type/>
+        <details>undefined</details>
+        <document>incident</document>
+        <document_key>724bbdd0dbe523000cf0364e9d96197f</document_key>
+        <fields>active,activity_due,due_date,follow_up,sla_due</fields>
+        <foreign_key/>
+        <foreign_name/>
+        <ondelete>true</ondelete>
+        <oninsert>true</oninsert>
+        <onupdate>true</onupdate>
+        <script/>
+        <sys_class_name>sys_listener_detail</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-30 11:47:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>724bf9d0dbe523000cf0364e9d96193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>com.glide.listener.TaskChildNotifier</sys_name>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>sys_listener_detail_724bf9d0dbe523000cf0364e9d96193c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-30 11:47:30</sys_updated_on>
+        <update_count/>
+    </sys_listener_detail>
+</record_update>

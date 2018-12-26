@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Flex Reason" max_length="40" name="x_snc_nyu2_flex_reason" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Reason Order" max_length="40" name="reason_order" type="integer"/>

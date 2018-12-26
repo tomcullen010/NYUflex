@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="question_d_description" table="x_snc_nyu2_flex_request">
         <active>true</active>
         <array>false</array>
@@ -15,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Question D Description</column_label>
+        <column_label>D. Telecommuting</column_label>
         <comments/>
         <create_roles/>
         <default_value>(not to exceed one full day each week unless an exception is approved as reasonable accommodation based on a disability)</default_value>
@@ -31,6 +30,8 @@
         <element>question_d_description</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>400</max_length>
@@ -54,15 +55,15 @@
         <sys_created_on>2017-08-25 20:45:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1be094354f78c3002d1d958f0310c711</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Question D Description</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>D. Telecommuting</sys_name>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_nyu2_flex_request_question_d_description</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-26 07:11:15</sys_updated_on>
+        <sys_updated_on>2018-12-25 14:06:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

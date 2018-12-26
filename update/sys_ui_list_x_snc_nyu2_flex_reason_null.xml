@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_nyu2_flex_reason" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -58,21 +57,21 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-08-25 20:32:30</sys_created_on>
+            <sys_created_on>2017-08-25 20:32:09</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8f3e4cb14f78c3002d1d958f0310c76c</sys_id>
+            <sys_id>0e2e4cb14f78c3002d1d958f0310c79b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package/>
+            <sys_name>x_snc_nyu2_flex_reason</sys_name>
+            <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_x_snc_nyu2_flex_reason_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-25 20:32:30</sys_updated_on>
-            <sys_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user>
+            <sys_updated_on>2017-08-25 20:32:09</sys_updated_on>
+            <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

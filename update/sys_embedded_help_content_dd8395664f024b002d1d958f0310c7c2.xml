@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>hr</category>
+        <content><![CDATA[  <h1 class="title topictitle1">HR positions</h1>    <div class="body conbody">    <p class="p"><span class="ph">As part of the Human Resources setup process, you define positions            to describe employee job functions within the organization. Positions are associated            with employees in the HR profile.</span></p>    <div class="p">Review the list of positions to verify that the intended job titles are present in the        database.<div class="note note"><span class="notetitle">Note:</span> Sort the list by the <span class="ph uicontrol">Updated</span> column for easy        identification of the new records.</div></div>  </div>]]></content>
+        <last_sync>2018-01-27 12:52:08</last_sync>
+        <modifier>normal</modifier>
+        <name>sn_hr_core_position_list-normal</name>
+        <page>sn_hr_core_position_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-10-29 12:49:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dd8395664f024b002d1d958f0310c7c2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>sn_hr_core_position_list-normal</sys_name>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>sys_embedded_help_content_dd8395664f024b002d1d958f0310c7c2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-01-27 12:52:08</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+</record_update>
