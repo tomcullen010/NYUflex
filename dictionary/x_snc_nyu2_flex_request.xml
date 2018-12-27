@@ -47,9 +47,24 @@
         <element default="(Note: This option has benefits implications that the employee is advised to explore with her/his Benefits Advisor in advance of making request)." label="E. Conversation from full-time to regular part-time" max_length="400" name="question_e_description" read_only="true" type="string"/>
         <element active="false" label="Question E Reasons" max_length="4000" name="question_e_reasons" reference="x_snc_nyu2_flex_reason" type="glide_list"/>
         <element label="Question E Selected" max_length="40" name="question_e_selected" type="boolean"/>
+        <element default="8" label="Request Friday" max_length="40" name="req_friday_hrs" type="integer"/>
+        <element default="12 - 1" label="Request Friday Lunch" max_length="40" name="req_friday_lunch" type="string"/>
+        <element default="8" label="Request Monday" max_length="40" name="req_monday_hrs" type="integer"/>
+        <element default="12 - 1" label="Request Monday Lunch" max_length="40" name="req_monday_lunch" type="string"/>
+        <element label="Request Saturday" max_length="40" name="req_saturday_hrs" type="integer"/>
+        <element label="Request Saturday Lunch" max_length="40" name="req_saturday_lunch" type="string"/>
+        <element label="Request Sunday" max_length="40" name="req_sunday_hrs" type="integer"/>
+        <element label="Request Sunday Lunch" max_length="40" name="req_sunday_lunch" type="string"/>
+        <element default="8" label="Request Thursday" max_length="40" name="req_thursday_hrs" type="integer"/>
+        <element default="12 - 1" label="Request Thursday Lunch" max_length="40" name="req_thursday_lunch" type="string"/>
+        <element default="8" label="Request Tuesday" max_length="40" name="req_tuesday_hrs" type="integer"/>
+        <element default="12 - 1" label="Request Tuesday Lunch" max_length="40" name="req_tuesday_lunch" type="string"/>
+        <element default="8" label="Request Wednesday" max_length="40" name="req_wednesday_hrs" type="integer"/>
+        <element default="12 - 1" label="Request Wednesday Lunch" max_length="40" name="req_wednesday_lunch" type="string"/>
         <element label="Reasonable accommodation based on a disability" max_length="40" name="resonable_accommodation" type="boolean"/>
         <element label="Spouse or registered domestic partner care" max_length="40" name="spouse_partner_care" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Sunday off-site" max_length="40" name="sunday_off_site" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;var req_total = current.req_sunday_hrs +&#13;&#10;&#9;&#9;current.req_monday_hrs +&#13;&#10;&#9;&#9;current.req_tuesday_hrs +&#13;&#10;&#9;&#9;current.req_wednesday_hrs +&#13;&#10;&#9;&#9;current.req_thursday_hrs +&#13;&#10;&#9;&#9;current.req_friday_hrs +&#13;&#10;&#9;&#9;current.req_saturday_hrs;&#13;&#10;&#9;return req_total;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Total Requested Hours" max_length="40" name="total_requested_hours" type="integer" virtual="true"/>
         <element label="Today's Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
     </element>
 </database>

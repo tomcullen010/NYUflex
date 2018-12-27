@@ -3,47 +3,47 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>c840d58fdbaa6b4033d057935e9619b8</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>96b8d907dbea6b4033d057935e96199f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <text>Employee must provide supervisor and Stern HR with documentation for reason indicated (class schedule, elder care, child care, or reasonable accommodation).</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>cc40d58fdbaa6b4033d057935e9619b8</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>9ab8d907dbea6b4033d057935e96199f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <text>Select all that apply to this request</text>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>c040d58fdbaa6b4033d057935e9619b9</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>9eb8d907dbea6b4033d057935e96199f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <text/>
             <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c840d58fdbaa6b4033d057935e9619b8</element>
+            <element>96b8d907dbea6b4033d057935e96199f</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>8440d58fdbaa6b4033d057935e9619b9</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>52b8d907dbea6b4033d057935e9619a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -51,27 +51,27 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>0840d58fdbaa6b4033d057935e9619b9</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>d2b8d907dbea6b4033d057935e9619a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cc40d58fdbaa6b4033d057935e9619b8</element>
+            <element>9ab8d907dbea6b4033d057935e96199f</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>8840d58fdbaa6b4033d057935e9619b9</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>56b8d907dbea6b4033d057935e9619a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -79,13 +79,13 @@
             <element>class_schedule</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>0c40d58fdbaa6b4033d057935e9619b9</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>d6b8d907dbea6b4033d057935e9619a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -93,13 +93,13 @@
             <element>dependent_under_19</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>8c40d58fdbaa6b4033d057935e9619b9</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>5ab8d907dbea6b4033d057935e9619a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -107,13 +107,13 @@
             <element>dependent_over_19</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>0040d58fdbaa6b4033d057935e9619ba</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>dab8d907dbea6b4033d057935e9619a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -121,27 +121,27 @@
             <element>.split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>8040d58fdbaa6b4033d057935e9619ba</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>5eb8d907dbea6b4033d057935e9619a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c040d58fdbaa6b4033d057935e9619b9</element>
+            <element>9eb8d907dbea6b4033d057935e96199f</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>0440d58fdbaa6b4033d057935e9619ba</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>deb8d907dbea6b4033d057935e9619a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -149,13 +149,13 @@
             <element>spouse_partner_care</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>8440d58fdbaa6b4033d057935e9619ba</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>52b8d907dbea6b4033d057935e9619a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -163,13 +163,13 @@
             <element>elder_care</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>0840d58fdbaa6b4033d057935e9619ba</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>d2b8d907dbea6b4033d057935e9619a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -177,13 +177,13 @@
             <element>resonable_accommodation</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-12-27 14:45:31</sys_created_on>
-            <sys_id>8840d58fdbaa6b4033d057935e9619ba</sys_id>
+            <sys_created_on>2018-12-27 15:22:32</sys_created_on>
+            <sys_id>56b8d907dbea6b4033d057935e9619a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-27 14:45:31</sys_updated_on>
+            <sys_updated_on>2018-12-27 15:22:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
