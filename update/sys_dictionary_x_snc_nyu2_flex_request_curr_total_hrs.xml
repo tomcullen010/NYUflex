@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_snc_nyu2_flex_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="curr_total_hrs" table="x_snc_nyu2_flex_request">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -8,16 +8,23 @@
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
-	return '';  // return the calculated value
+	var curr_total = current.curr_sunday_hrs +
+		current.curr_monday_hrs + 
+		current.curr_tuesday_hrs +
+		current.curr_wednesday_hrs +
+		current.curr_thursday_hrs +
+		current.curr_friday_hrs + 
+		current.curr_saturday_hrs;
+	return curr_total;  // return the calculated value
 
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Current Total Hours</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>8</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,12 +34,12 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>curr_total_hrs</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="Integer">integer</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_snc_nyu2_flex_request</name>
@@ -47,30 +54,30 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>29</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-25 19:44:53</sys_created_on>
+        <sys_created_on>2018-12-26 15:53:15</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>a953c83d4f38c3002d1d958f0310c7ab</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_nyu2_flex_request</sys_name>
+        <sys_id>45b5583adb6e2b4033d057935e961915</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Current Total Hours</sys_name>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_nyu2_flex_request_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_nyu2_flex_request_curr_total_hrs</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-25 19:44:53</sys_updated_on>
+        <sys_updated_on>2018-12-26 16:17:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

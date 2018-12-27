@@ -21,12 +21,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8aeb9c794f78c3002d1d958f0310c7f6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_nyu2_flex_request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">8aeb9c794f78c3002d1d958f0310c7f3</sys_ui_form>
             <sys_ui_section caption="Flex Time Options" display_value="Flex Time Options" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">4eeb9c794f78c3002d1d958f0310c7f2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-08-25 21:32:14</sys_updated_on>
+            <sys_updated_on>2018-12-26 16:20:07</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -35,12 +35,26 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2fb5cfdedbee2b000cf0364e9d96199b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_nyu2_flex_request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">8aeb9c794f78c3002d1d958f0310c7f3</sys_ui_form>
             <sys_ui_section caption="Reasons for Request" display_value="Reasons for Request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">67b5cfdedbee2b000cf0364e9d961943</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-12-25 15:23:24</sys_updated_on>
+            <sys_updated_on>2018-12-26 16:20:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-12-26 16:09:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ec9583edb6e2b4033d057935e961985</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_nyu2_flex_request" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">8aeb9c794f78c3002d1d958f0310c7f3</sys_ui_form>
+            <sys_ui_section caption="Current and Requested Hours" display_value="Current and Requested Hours" name="x_snc_nyu2_flex_request" sys_domain="global" view="Default view">46c9583edb6e2b4033d057935e961982</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-12-26 16:20:07</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_nyu2_flex_request</name>
