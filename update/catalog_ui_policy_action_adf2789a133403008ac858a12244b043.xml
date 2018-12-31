@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="NYU Work Flex Request">4e078ffd4fbcc3002d1d958f0310c75d</catalog_item>
+        <catalog_item/>
         <catalog_variable>IO:462a349e133403008ac858a12244b09b</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="NYU Work Flex Request">4e078ffd4fbcc3002d1d958f0310c75d</sc_cat_item>
+        <sc_cat_item display_value="University Flex Work Request">e5cf1d4bdbea6b4033d057935e9619ef</sc_cat_item>
         <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-08-26 10:06:59</sys_created_on>
+        <sys_created_on>2018-12-27 15:53:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f5a8cb314ffcc3002d1d958f0310c7a8</sys_id>
+        <sys_id>adcf1d4bdbea6b4033d057935e9619f5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Catalog.NYU Work Flex Request</sys_name>
+        <sys_name>Service Catalog.University Flex Work Request</sys_name>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_f5a8cb314ffcc3002d1d958f0310c7a8</sys_update_name>
+        <sys_update_name>sc_cat_item_catalog_adcf1d4bdbea6b4033d057935e9619f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-08-26 10:06:59</sys_updated_on>
+        <sys_updated_on>2018-12-27 15:53:21</sys_updated_on>
     </sc_cat_item_catalog>
 </record_update>
