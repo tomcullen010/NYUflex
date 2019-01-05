@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow version of Flex Request workflow</description>
+        <internal_name>flex_policy_request</internal_name>
+        <label_cache>[{"name":"{{static.d7cbb6794fbcc3002d1d958f0310c77c}}","label":"NYU Stern School Senior Managment","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"2bf79f81-474b-43e0-9ded-8fb183ee4109.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"21e47414-cd61-4517-a412-e2b2fc7eada0.approval_state","label":"4➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"cb2b26bb-f12d-4b5e-88e5-f67937547c47.table_name","label":"3➛Flex Request Table","reference":"x_snc_nyu2_flex_request","reference_display":"Flex Request","type":"table_name","base_type":"table_name"},{"name":"cb2b26bb-f12d-4b5e-88e5-f67937547c47.record","label":"3➛Flex Request Record","reference":"x_snc_nyu2_flex_request","reference_display":"Flex Request","type":"reference","base_type":"reference"},{"name":"Created_1.current.opened_at","label":"Trigger➛Flex Request Record➛Opened","reference":"","reference_display":"Opened","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_snc_nyu2_flex_request","column_name":"opened_at"},{"name":"Created_1.current.opened_by.manager","label":"Trigger➛Flex Request Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current","label":"Trigger➛Flex Request Record","reference":"x_snc_nyu2_flex_request","reference_display":"Flex Request","type":"reference","base_type":"reference"},{"name":"6a8c2a00-ef59-477b-a8a6-e5d9d96d04ba.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current.opened_by.email","label":"Trigger➛Flex Request Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"ad6e1fab-b5ec-4ce5-b05d-4eb97b801d4c.email","label":"1➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"896d6551-c7e1-4a21-bc0d-0eac4daab1a4.record","label":"5.1➛Flex Request Record","reference":"x_snc_nyu2_flex_request","reference_display":"Flex Request","type":"reference","base_type":"reference"},{"name":"896d6551-c7e1-4a21-bc0d-0eac4daab1a4.table_name","label":"5.1➛Flex Request Table","reference":"x_snc_nyu2_flex_request","reference_display":"Flex Request","type":"table_name","base_type":"table_name"},{"name":"8acadc48-57da-4414-b853-3019c3897feb.email","label":"5.2➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"Created_1.current.opened_by.manager.email","label":"Trigger➛Flex Request Record➛Opened by➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.number","label":"Trigger➛Flex Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_nyu2_flex_request","column_name":"number"},{"name":"38d4f191-7e93-4612-9cc2-9aa734fc3429.record","label":"6➛Flex Request Record","reference":"x_snc_nyu2_flex_request","reference_display":"Flex Request","type":"reference","base_type":"reference"},{"name":"38d4f191-7e93-4612-9cc2-9aa734fc3429.table_name","label":"6➛Flex Request Table","reference":"x_snc_nyu2_flex_request","reference_display":"Flex Request","type":"table_name","base_type":"table_name"},{"name":"7ea599ce-c63c-4356-9313-65af1ac3a487.email","label":"7➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot>e64b937ddbb263000cf0364e9d96191c</latest_snapshot>
+        <master_snapshot>34258ba9dbb623000cf0364e9d96196e</master_snapshot>
+        <name>Flex Policy Request</name>
+        <outputs/>
+        <remote_trigger_id>ca25cba9dbb623000cf0364e9d961949</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 15:56:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d73d2e29db7623000cf0364e9d9619c2</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Flex Policy Request</sys_name>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>sys_hub_flow_d73d2e29db7623000cf0364e9d9619c2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-01-05 13:56:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=d73d2e29db7623000cf0364e9d9619c2"/>
+</record_update>

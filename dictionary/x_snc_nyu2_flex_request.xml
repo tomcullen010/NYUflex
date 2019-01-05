@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Flex Request" max_length="40" name="x_snc_nyu2_flex_request" sizeclass="4" type="collection">
+    <element extends="task" label="Flex Request" max_length="40" name="x_snc_nyu2_flex_request" sizeclass="3" type="collection">
         <element active="false" label="Check all that apply to you" mandatory="true" max_length="4000" name="check_all_that_apply_to_you" reference="x_snc_nyu2_flex_qualification" type="glide_list"/>
         <element label="Class schedule" max_length="40" name="class_schedule" type="boolean"/>
         <element label="Request to continue existing flex arrangement" max_length="40" name="continue_exiting_arrangement" type="boolean"/>
