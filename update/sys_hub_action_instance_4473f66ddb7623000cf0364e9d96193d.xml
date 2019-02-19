@@ -15,7 +15,7 @@
         <sys_created_on>2019-01-04 16:23:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4473f66ddb7623000cf0364e9d96193d</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>90</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
         <sys_policy/>
@@ -23,7 +23,7 @@
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
         <sys_update_name>sys_hub_action_instance_4473f66ddb7623000cf0364e9d96193d</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-01-05 13:56:22</sys_updated_on>
+        <sys_updated_on>2019-02-17 22:38:14</sys_updated_on>
         <ui_id>ad6e1fab-b5ec-4ce5-b05d-4eb97b801d4c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4473f66ddb7623000cf0364e9d96193d"/>
@@ -63,10 +63,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 17:40:57</sys_created_on>
         <sys_id>c8254ba9dbb623000cf0364e9d9619a8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-04 17:40:57</sys_updated_on>
-        <value>Your request Number ${number} for ${short_description} has been submitted</value>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-02-16 17:24:10</sys_updated_on>
+        <value/>
         <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -130,11 +130,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 17:40:57</sys_created_on>
         <sys_id>cc254ba9dbb623000cf0364e9d9619a7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-04 17:40:57</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-02-16 17:24:10</sys_updated_on>
         <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
-        <value/>
+        <value>Your request Number {{Created_1.current.number}} for {{Created_1.current.short_description}}has been submitted.</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_to</field>

@@ -8,14 +8,14 @@
         <compiled_snapshot display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Flex Policy Request">d73d2e29db7623000cf0364e9d9619c2</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 16:23:42</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1473f66ddb7623000cf0364e9d96196f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>90</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
         <sys_policy/>
@@ -23,7 +23,7 @@
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
         <sys_update_name>sys_hub_action_instance_1473f66ddb7623000cf0364e9d96196f</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-01-05 13:56:22</sys_updated_on>
+        <sys_updated_on>2019-02-17 22:38:15</sys_updated_on>
         <ui_id>2bf79f81-474b-43e0-9ded-8fb183ee4109</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1473f66ddb7623000cf0364e9d96196f"/>
@@ -168,24 +168,24 @@
         <field>approval_field</field>
         <id>1473f66ddb7623000cf0364e9d96196f</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-04 17:40:58</sys_created_on>
-        <sys_id>9c254ba9dbb623000cf0364e9d9619d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>approval_field</field>
-        <id>1473f66ddb7623000cf0364e9d96196f</id>
-        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 16:23:42</sys_created_on>
         <sys_id>a873f66ddb7623000cf0364e9d961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-04 16:23:42</sys_updated_on>
         <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>1473f66ddb7623000cf0364e9d96196f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 17:40:58</sys_created_on>
+        <sys_id>9c254ba9dbb623000cf0364e9d9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -216,18 +216,6 @@
         <field>journal_field</field>
         <id>1473f66ddb7623000cf0364e9d96196f</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-04 17:40:58</sys_created_on>
-        <sys_id>50254ba9dbb623000cf0364e9d9619d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>journal_field</field>
-        <id>1473f66ddb7623000cf0364e9d96196f</id>
-        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 16:23:42</sys_created_on>
         <sys_id>6c73f66ddb7623000cf0364e9d961974</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -237,16 +225,16 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
+        <field>journal_field</field>
         <id>1473f66ddb7623000cf0364e9d96196f</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 17:40:58</sys_created_on>
-        <sys_id>14254ba9dbb623000cf0364e9d9619d6</sys_id>
+        <sys_id>50254ba9dbb623000cf0364e9d9619d6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{{Created_1.current}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
@@ -261,16 +249,16 @@
         <value>{{Created_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
+        <field>record</field>
         <id>1473f66ddb7623000cf0364e9d96196f</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 17:40:58</sys_created_on>
-        <sys_id>5c254ba9dbb623000cf0364e9d9619d6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>14254ba9dbb623000cf0364e9d9619d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
+        <sys_updated_on>2019-02-17 22:35:52</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
+        <value>{{Created_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -282,6 +270,18 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-04 16:23:42</sys_updated_on>
         <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>1473f66ddb7623000cf0364e9d96196f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 17:40:58</sys_created_on>
+        <sys_id>5c254ba9dbb623000cf0364e9d9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value/>
     </sys_element_mapping>
 </record_update>

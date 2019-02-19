@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Set State = Closed Rejected</comment>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flex Policy Request">5138d67bdb27a34033d057935e961975</flow>
+        <order>6.1</order>
+        <parent_ui_id>1560ec3e-3d9e-4f46-9bf3-cf2774a534a0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a2381a7bdb27a34033d057935e96195a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a2381a7bdb27a34033d057935e96195a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 21:14:26</sys_updated_on>
+        <ui_id>896d6551-c7e1-4a21-bc0d-0eac4daab1a4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a2381a7bdb27a34033d057935e96195a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a2381a7bdb27a34033d057935e96195a</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_id>26381a7bdb27a34033d057935e96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:13</sys_updated_on>
+        <value>x_snc_nyu2_flex_request</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a2381a7bdb27a34033d057935e96195a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_id>62381a7bdb27a34033d057935e96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:13</sys_updated_on>
+        <value>state=5</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a2381a7bdb27a34033d057935e96195a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a2381a7bdb27a34033d057935e96195a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_id>2e381a7bdb27a34033d057935e96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{cb2b26bb-f12d-4b5e-88e5-f67937547c47.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a2381a7bdb27a34033d057935e96195a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_id>6a381a7bdb27a34033d057935e96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a2381a7bdb27a34033d057935e96195a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_id>ee381a7bdb27a34033d057935e96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

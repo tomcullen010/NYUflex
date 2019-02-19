@@ -15,7 +15,7 @@
         <sys_created_on>2019-01-04 16:23:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1873f66ddb7623000cf0364e9d96194a</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>90</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
         <sys_policy/>
@@ -23,7 +23,7 @@
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
         <sys_update_name>sys_hub_action_instance_1873f66ddb7623000cf0364e9d96194a</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-01-05 13:56:22</sys_updated_on>
+        <sys_updated_on>2019-02-17 22:38:14</sys_updated_on>
         <ui_id>6a8c2a00-ef59-477b-a8a6-e5d9d96d04ba</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1873f66ddb7623000cf0364e9d96194a"/>
@@ -144,18 +144,6 @@
         <field>approval_conditions</field>
         <id>1873f66ddb7623000cf0364e9d96194a</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-04 17:40:58</sys_created_on>
-        <sys_id>54254ba9dbb623000cf0364e9d9619b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesAnyU[{{Created_1.current.opened_by.manager}}]</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>approval_conditions</field>
-        <id>1873f66ddb7623000cf0364e9d96194a</id>
-        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 16:23:41</sys_created_on>
         <sys_id>9073f66ddb7623000cf0364e9d961951</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -165,16 +153,16 @@
         <value>ApprovesAnyU[{{Created_1.current.opened_by.manager}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>approval_field</field>
+        <field>approval_conditions</field>
         <id>1873f66ddb7623000cf0364e9d96194a</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 17:40:58</sys_created_on>
-        <sys_id>58254ba9dbb623000cf0364e9d9619b3</sys_id>
+        <sys_id>54254ba9dbb623000cf0364e9d9619b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
+        <value>ApprovesAnyU[{{Created_1.current.opened_by.manager}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
@@ -189,16 +177,16 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>due_date</field>
+        <field>approval_field</field>
         <id>1873f66ddb7623000cf0364e9d96194a</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 17:40:58</sys_created_on>
-        <sys_id>90254ba9dbb623000cf0364e9d9619b4</sys_id>
+        <sys_id>58254ba9dbb623000cf0364e9d9619b3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{"action":"reject","date_type":"relative","date":"{{Created_1.current.opened_at}}","duration":1,"duration_type":"weeks","schedule":"090eecae0a0a0b260077e1dfa71da828","schedule_label":"8-5 weekdays excluding holidays"}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>due_date</field>
@@ -213,16 +201,16 @@
         <value>{"action":"reject","date_type":"relative","date":"{{Created_1.current.opened_at}}","duration":1,"duration_type":"weeks","schedule":"090eecae0a0a0b260077e1dfa71da828","schedule_label":"8-5 weekdays excluding holidays"}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>journal_field</field>
+        <field>due_date</field>
         <id>1873f66ddb7623000cf0364e9d96194a</id>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 17:40:58</sys_created_on>
-        <sys_id>1c254ba9dbb623000cf0364e9d9619b3</sys_id>
+        <sys_id>90254ba9dbb623000cf0364e9d9619b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
+        <value>{"action":"reject","date_type":"relative","date":"{{Created_1.current.opened_at}}","duration":1,"duration_type":"weeks","schedule":"090eecae0a0a0b260077e1dfa71da828","schedule_label":"8-5 weekdays excluding holidays"}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>journal_field</field>
@@ -234,6 +222,18 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-04 16:23:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>1873f66ddb7623000cf0364e9d96194a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 17:40:58</sys_created_on>
+        <sys_id>1c254ba9dbb623000cf0364e9d9619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -264,24 +264,24 @@
         <field>table</field>
         <id>1873f66ddb7623000cf0364e9d96194a</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-04 17:40:58</sys_created_on>
-        <sys_id>18254ba9dbb623000cf0364e9d9619b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table</field>
-        <id>1873f66ddb7623000cf0364e9d96194a</id>
-        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 16:23:41</sys_created_on>
         <sys_id>5473f66ddb7623000cf0364e9d961951</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-01-04 16:23:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_bae0a1120b10030085c083eb37673a92</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>1873f66ddb7623000cf0364e9d96194a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 17:40:58</sys_created_on>
+        <sys_id>18254ba9dbb623000cf0364e9d9619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 17:40:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
         <value/>
     </sys_element_mapping>
 </record_update>

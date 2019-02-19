@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Notify Requestor application  submitted</comment>
+        <compiled_snapshot display_value="Send Email">716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flex Policy Request">5138d67bdb27a34033d057935e961975</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:10</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8238d67bdb27a34033d057935e9619ef</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_8238d67bdb27a34033d057935e9619ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 21:14:24</sys_updated_on>
+        <ui_id>ad6e1fab-b5ec-4ce5-b05d-4eb97b801d4c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8238d67bdb27a34033d057935e9619ef"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8238d67bdb27a34033d057935e9619ef</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:11</sys_created_on>
+        <sys_id>5a38d67bdb27a34033d057935e9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:11</sys_updated_on>
+        <value>&lt;p&gt;Request Number :&lt;span class="data_pill "&gt;Trigger➛Flex Request Record➛Number&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Short description:  &lt;span class="data_pill "&gt;Trigger➛Flex Request Record➛Short description&lt;/span&gt; is in progress !!!&lt;/p&gt;
+&lt;p&gt;** sent from Flow Designer **&lt;/p&gt;</value>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8238d67bdb27a34033d057935e9619ef"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>8238d67bdb27a34033d057935e9619ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:11</sys_created_on>
+        <sys_id>d638d67bdb27a34033d057935e9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>8238d67bdb27a34033d057935e9619ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:11</sys_created_on>
+        <sys_id>1638d67bdb27a34033d057935e9619f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 21:14:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>Your request Number {{Created or Updated_1.current.number}}  has been submitted.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>8238d67bdb27a34033d057935e9619ef</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:11</sys_created_on>
+        <sys_id>5e38d67bdb27a34033d057935e9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Created or Updated_1.current.opened_by.email}}</value>
+    </sys_element_mapping>
+</record_update>

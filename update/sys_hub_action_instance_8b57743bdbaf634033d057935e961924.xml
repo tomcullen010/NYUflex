@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</action_type>
+        <action_type_parent display_value="Post a Message">d3b4e24b3ba0030057a4a2e334efc4e4</action_type_parent>
+        <comment/>
+        <compiled_snapshot display_value="Post a Message">41ca0f433be0030057a4a2e334efc474</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flex Policy Request">ce57343bdbaf634033d057935e961933</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2019-02-17 13:54:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8b57743bdbaf634033d057935e961924</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_8b57743bdbaf634033d057935e961924</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-02-17 14:05:51</sys_updated_on>
+        <ui_id>8c04dc26-fd0f-4b1d-99d2-400e28752f9c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8b57743bdbaf634033d057935e961924"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8b57743bdbaf634033d057935e961924</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2019-02-17 13:54:59</sys_created_on>
+        <sys_id>0f57743bdbaf634033d057935e96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-02-17 13:54:59</sys_updated_on>
+        <value>Flexbot</value>
+        <variable display_value="">41ca0f433be0030057a4a2e334efc48f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8b57743bdbaf634033d057935e961924</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2019-02-17 13:54:59</sys_created_on>
+        <sys_id>8357743bdbaf634033d057935e96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-02-17 13:54:59</sys_updated_on>
+        <value>https://hooks.slack.com/services/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</value>
+        <variable display_value="">cdca0f433be0030057a4a2e334efc476</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8b57743bdbaf634033d057935e961924</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2019-02-17 13:54:59</sys_created_on>
+        <sys_id>cf57743bdbaf634033d057935e96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-02-17 13:54:59</sys_updated_on>
+        <value>university_flextime</value>
+        <variable display_value="">85ca0f433be0030057a4a2e334efc49a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8b57743bdbaf634033d057935e961924"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_channel</field>
+        <id>8b57743bdbaf634033d057935e961924</id>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2019-02-17 13:54:59</sys_created_on>
+        <sys_id>8b57743bdbaf634033d057935e96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-02-17 13:54:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>8b57743bdbaf634033d057935e961924</id>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2019-02-17 13:54:59</sys_created_on>
+        <sys_id>c757743bdbaf634033d057935e96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-02-17 13:54:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value>New Flex Work request has been accepted &lt;https://tcullsc1.service-now.com/nav_to.do?uri=%2Fx_snc_nyu2_flex_request.do%3Fsys_id%3D{{Created_1.current.sys_id}}|{{Created_1.current.short_description}}&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_username</field>
+        <id>8b57743bdbaf634033d057935e961924</id>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2019-02-17 13:54:59</sys_created_on>
+        <sys_id>4357743bdbaf634033d057935e96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-02-17 13:54:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>8b57743bdbaf634033d057935e961924</id>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2019-02-17 13:54:59</sys_created_on>
+        <sys_id>0757743bdbaf634033d057935e96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2019-02-17 13:54:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_41ca0f433be0030057a4a2e334efc474</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

@@ -11,7 +11,7 @@
         <name>nyu*</name>
         <no_tabs>false</no_tabs>
         <order/>
-        <owner display_value=" sys admin">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="System Admin">6816f79cc0a8016401c5a33be04be441</owner>
         <restrict_to_roles/>
         <role_override>true</role_override>
         <roles/>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment>Notify requestor</comment>
+        <compiled_snapshot display_value="Send Email">716281160b100300d97d8bf637673ac7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Flex Policy Request">5138d67bdb27a34033d057935e961975</flow>
+        <order>6.2</order>
+        <parent_ui_id>1560ec3e-3d9e-4f46-9bf3-cf2774a534a0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a2381a7bdb27a34033d057935e961971</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a2381a7bdb27a34033d057935e961971</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 21:14:26</sys_updated_on>
+        <ui_id>8acadc48-57da-4414-b853-3019c3897feb</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a2381a7bdb27a34033d057935e961971"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a2381a7bdb27a34033d057935e961971</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_id>be381a7bdb27a34033d057935e961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:13</sys_updated_on>
+        <value/>
+        <variable display_value="">4e62c1160b100300d97d8bf637673a10</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a2381a7bdb27a34033d057935e961971"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>a2381a7bdb27a34033d057935e961971</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_id>3e381a7bdb27a34033d057935e961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Dear&amp;nbsp;&lt;span class="data_pill "&gt;Trigger➛Flex Request Record➛Opened by➛First name&lt;/span&gt;,&lt;/p&gt;
+&lt;p&gt;We are sorry to inform you but your Flex request could not be accepted.&amp;nbsp; The reason for this is :&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="8c66ab4c-5feb-46c4-a4f3-803303af3e99" data-pillvalue="{{896d6551-c7e1-4a21-bc0d-0eac4daab1a4.record.approval_history}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="8c66ab4c-5feb-46c4-a4f3-803303af3e99" data-pillvalue="{{896d6551-c7e1-4a21-bc0d-0eac4daab1a4.record.approval_history}}"&gt;6.1➛Flex Request Record➛Approval history&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>a2381a7bdb27a34033d057935e961971</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_id>7a381a7bdb27a34033d057935e961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>Request {{896d6551-c7e1-4a21-bc0d-0eac4daab1a4.record.number}} has been rejected</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>a2381a7bdb27a34033d057935e961971</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 20:58:13</sys_created_on>
+        <sys_id>b6381a7bdb27a34033d057935e961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 20:58:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{896d6551-c7e1-4a21-bc0d-0eac4daab1a4.record.opened_by.email}}</value>
+    </sys_element_mapping>
+</record_update>

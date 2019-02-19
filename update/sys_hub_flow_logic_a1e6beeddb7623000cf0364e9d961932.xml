@@ -7,7 +7,7 @@
         <flow display_value="Flex Policy Request">d73d2e29db7623000cf0364e9d9619c2</flow>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>5</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -16,7 +16,7 @@
         <sys_created_on>2019-01-04 16:38:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a1e6beeddb7623000cf0364e9d961932</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NYU2" source="x_snc_nyu2">0953483d4f38c3002d1d958f0310c71c</sys_package>
         <sys_policy/>
@@ -24,7 +24,7 @@
         <sys_scope display_value="NYU2">0953483d4f38c3002d1d958f0310c71c</sys_scope>
         <sys_update_name>sys_hub_flow_logic_a1e6beeddb7623000cf0364e9d961932</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-01-05 13:56:23</sys_updated_on>
+        <sys_updated_on>2019-02-17 22:38:16</sys_updated_on>
         <ui_id>1560ec3e-3d9e-4f46-9bf3-cf2774a534a0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -52,10 +52,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-04 16:38:48</sys_created_on>
         <sys_id>69e6beeddb7623000cf0364e9d961935</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-04 16:38:48</sys_updated_on>
-        <value>{{6a8c2a00-ef59-477b-a8a6-e5d9d96d04ba.approval_state}}=rejected</value>
+        <sys_updated_on>2019-02-17 22:25:17</sys_updated_on>
+        <value>{{2bf79f81-474b-43e0-9ded-8fb183ee4109.approval_state}}!=approved</value>
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
 </record_update>
